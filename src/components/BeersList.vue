@@ -2,6 +2,7 @@
 <div>
   <ul>
     <beer-item v-for="(beer, index) in beers" :beer="beer" :key="index"></beer-item>
+    
   </ul>
 
 </div>
